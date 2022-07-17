@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+<body>
+    <p id="rn" ></p>
+    <button onclick="rohan()">try it</button>
+    <script>
+
+        let name=["rohan","rahul","rohit","meenu","pradip"];
+        document.getElementById("rn").innerHTML=name;
+
+        function rohan(){
+            name[name.length]="lemon";
+        
+       document.getElementById("rn").innerHTML=name;
+        }
+    </script>
+</body>
+</html>
